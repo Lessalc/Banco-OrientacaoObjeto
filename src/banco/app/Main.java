@@ -39,6 +39,10 @@ public class Main {
 		
 		System.out.println(banco.retornaConta(0));
 		System.out.println(banco.retornaConta(1));
+		
+		// verificando a nossa lista de clientes.
+		System.out.println("Clientes:" + banco.retornaClientes());
+		
 	}
 	
 	
